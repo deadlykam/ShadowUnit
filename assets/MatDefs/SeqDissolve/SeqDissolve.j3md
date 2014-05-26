@@ -1,0 +1,34 @@
+MaterialDef Simple {
+    MaterialParameters {
+        //Sequencing Parameters
+        Texture2D Seq1
+        Texture2D Seq2
+        Texture2D Seq3
+        Texture2D Seq4
+        Texture2D Seq5
+        Vector2 Sequencing
+
+        //Dissolve Parameters
+        Texture2D DissolveMap
+        Vector2 Blend1
+    }
+    Technique {
+        VertexShader GLSL100: Shaders/SeqDissolve/SeqDissolve.vert
+        FragmentShader GLSL100: Shaders/SeqDissolve/SeqDissolve.frag
+
+        WorldParameters {
+            WorldViewProjectionMatrix
+        }
+
+        Defines{
+            SEQ1 : Seq1
+            SEQ2 : Seq2
+            SEQ3 : Seq3
+            SEQ4 : Seq4
+            SEQ5 : Seq5
+            SEQUENCING : Sequencing
+            DISSOLVEMAP : DissolveMap
+            BLEND1 : Blend1
+        }
+    }
+}
