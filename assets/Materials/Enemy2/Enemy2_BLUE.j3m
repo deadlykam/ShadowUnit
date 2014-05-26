@@ -1,0 +1,7 @@
+Material My Material : Common/MatDefs/Light/Lighting.j3md {
+     MaterialParameters {
+        DiffuseMap : Textures/Enemy2/Enemy2_BLUE.png
+     }
+    AdditionalRenderState {
+    }
+}

@@ -1,0 +1,9 @@
+Material My Material : MatDefs/ShaderBlow/Dissolve/Lighting.j3md {
+     MaterialParameters {
+        DiffuseMap : Textures/UI/MainMenu2_2.png
+        DissolveMap : Textures/UI/DissolveMap_GameMenu2.png
+        NormalMap : Textures/UI/MainMenu2_2_normal.jpg
+     }
+    AdditionalRenderState {
+    }
+}

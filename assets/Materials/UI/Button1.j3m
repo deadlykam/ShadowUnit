@@ -1,0 +1,8 @@
+Material My Material : MatDefs/ShaderBlow/Dissolve/Lighting.j3md {
+     MaterialParameters {
+        DiffuseMap : Textures/UI/Button1_2.png
+        DissolveMap : Textures/UI/DissolveMap_Button1.png
+     }
+    AdditionalRenderState {
+    }
+}

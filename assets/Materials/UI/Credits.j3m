@@ -1,0 +1,10 @@
+Material My Material : MatDefs/SeqDissolve/SeqDissolve.j3md {
+     MaterialParameters {
+        Seq1 : Textures/Credits/Credits1.png
+        Seq2 : Textures/Credits/Credits2.png
+        Seq3 : Textures/Credits/Credits3.png
+        DissolveMap : Textures/UI/DissolveMap_GameMenu2.png
+     }
+    AdditionalRenderState {
+    }
+}

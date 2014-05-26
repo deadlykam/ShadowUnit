@@ -1,0 +1,12 @@
+Material My Material : MatDefs/SeqDissolve/SeqDissolve.j3md {
+     MaterialParameters {
+        Seq1 : Textures/UI/StageImage.png
+        DissolveMap : Textures/UI/DissolveMap_GameMenu2.png
+        Seq2 : Textures/UI/NotAvailable2.png
+        Seq3 : Textures/UI/NotAvailable3.png
+        Seq4 : Textures/UI/NotAvailable4.png
+        Seq5 : Textures/UI/NotAvailable5.png
+     }
+    AdditionalRenderState {
+    }
+}

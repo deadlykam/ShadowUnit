@@ -1,0 +1,10 @@
+Material My Material : MatDefs/MovingGlow/MovingGlow.j3md {
+     MaterialParameters {
+        DiffuseMap : Textures/Bounce1/Bounce1.png
+        NormalMap : Textures/Bounce1/Bounce1_Normal.jpg
+        GlowMap : Textures/Bounce1/GlowMap.png
+        Glow_DissolveMap : Textures/Bounce1/DissolveMap3.png
+     }
+    AdditionalRenderState {
+    }
+}

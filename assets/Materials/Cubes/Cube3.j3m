@@ -1,0 +1,11 @@
+Material My Material : MatDefs/MovingGlow/MovingGlow.j3md {
+     MaterialParameters {
+        GlowMap : Textures/Cube3/GlowMap.png
+        Glow_DissolveMap : Textures/Cube3/GlowDissolveMap4.png
+        DiffuseMap : Textures/Cube3/ColorMap.png
+     }
+    AdditionalRenderState {
+      FaceCull Off
+      Blend AlphaAdditive
+    }
+}

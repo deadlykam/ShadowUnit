@@ -1,0 +1,8 @@
+Material My Material : Common/MatDefs/Light/Lighting.j3md {
+     MaterialParameters {
+        DiffuseMap : Textures/Ninjas/Ninja1.png
+        GlowMap : Textures/Ninjas/GlowMap2.png
+     }
+    AdditionalRenderState {
+    }
+}

@@ -1,0 +1,16 @@
+Material My Material : MatDefs/ElectricDissolves/ElectricDissolve2.j3md {
+     MaterialParameters {
+        color : 1.0 0.8 1.0 1.0
+        Mask_Texture : Repeat Textures/Electricities/Unbenannt.png
+        noise : Textures/Electricities/ramp2.png
+        noiseAmount : 0.14
+        speed : 0.09
+        Fog : 20.0
+        lines : 0.8
+        DissolveMap : Textures/Generator1/DissolveMap.png
+     }
+    AdditionalRenderState {
+      FaceCull Off
+      Blend Alpha
+    }
+}

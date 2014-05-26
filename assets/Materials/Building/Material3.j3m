@@ -1,0 +1,10 @@
+Material My Material : Common/MatDefs/Terrain/TerrainLighting.j3md {
+     MaterialParameters {
+        DiffuseMap : Repeat Textures/Building/0002_3.png
+        DiffuseMap_0_scale : 1.0
+        AlphaMap : Textures/Building/Alpha.png
+        NormalMap : Repeat Textures/Building/Walls_Noise3.png
+     }
+    AdditionalRenderState {
+    }
+}
