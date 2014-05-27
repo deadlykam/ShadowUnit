@@ -1,0 +1,83 @@
+<scene previous_export_time="0" formatVersion="1.0.1" export_time="1400564938.374196" exported_by="Kamran" >
+  <nodes >
+    <node name="Camera" >
+      <position z="-35.796326" x="35.344032" y="20.472174" />
+      <rotation qw="0.714903" qx="-0.587146" qy="-0.293428" qz="-0.240984" />
+      <scale z="1.000000" x="1.000000" y="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <camera projectionType="perspective" name="Camera" fov="0.8575560548920329" >
+        <clipping far="4000.0" nearPlaneDist="0.10000000149011612" near="0.10000000149011612" farPlaneDist="4000.0" />
+      </camera>
+    </node>
+    <node name="Plane.002" >
+      <position z="0.305759" x="-0.366489" y="8.612570" />
+      <rotation qw="1.000000" qx="-0.000000" qy="0.000000" qz="0.000000" />
+      <scale z="1.000000" x="1.000000" y="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <entity meshFile="Plane.059.mesh" mass="1.0" ghost="False" mass_radius="1.0" damping_trans="0.03999999910593033" damping_rot="0.10000000149011612" lock_rot_y="False" lock_rot_x="False" lock_rot_z="False" name="Plane.059" inertia_tensor="0.4000000059604645" velocity_max="0.0" velocity_min="0.0" friction_x="1.0" friction_y="1.0" friction_z="1.0" lock_trans_z="False" lock_trans_x="False" lock_trans_y="False" anisotropic_friction="False" actor="False" physics_type="STATIC" />
+    </node>
+    <node name="Sun" >
+      <position z="-100.000000" x="-0.000000" y="100.000000" />
+      <rotation qw="0.898554" qx="-0.419003" qy="-0.118297" qz="-0.055163" />
+      <scale z="1.000000" x="1.000000" y="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <light type="directional" shadow="true" name="Sun" powerScale="1.0" >
+        <position z="-100.000000" x="-0.000000" y="100.000000" />
+        <lightAttenuation quadratic="0.0" range="5000" linear="0.04" constant="1.0" />
+        <direction z="-0.766" x="-0.0" y="-0.643" />
+        <colourDiffuse g="1.0" b="1.0" r="1.0" />
+        <colourSpecular g="1.0" b="1.0" r="1.0" />
+        <colourShadow g="1.0" b="1.0" r="1.0" />
+      </light>
+    </node>
+  </nodes>
+  <externals >
+    <item type="material" >
+      <file name="K:\Models\JME Competitions\71013_CC_Low_Poly_Building_1_blend\Ogre\Material.002.material" />
+    </item>
+    <item type="material" >
+      <file name="K:\Models\JME Competitions\71013_CC_Low_Poly_Building_1_blend\Ogre\Material.005.material" />
+    </item>
+    <item type="material" >
+      <file name="K:\Models\JME Competitions\71013_CC_Low_Poly_Building_1_blend\Ogre\Material.009.material" />
+    </item>
+    <item type="material" >
+      <file name="K:\Models\JME Competitions\71013_CC_Low_Poly_Building_1_blend\Ogre\Material.010.material" />
+    </item>
+    <item type="material" >
+      <file name="K:\Models\JME Competitions\71013_CC_Low_Poly_Building_1_blend\Ogre\Material.011.material" />
+    </item>
+    <item type="material" >
+      <file name="K:\Models\JME Competitions\71013_CC_Low_Poly_Building_1_blend\Ogre\Material.material" />
+    </item>
+    <item type="material" >
+      <file name="K:\Models\JME Competitions\71013_CC_Low_Poly_Building_1_blend\Ogre\Material.001.material" />
+    </item>
+    <item type="material" >
+      <file name="K:\Models\JME Competitions\71013_CC_Low_Poly_Building_1_blend\Ogre\Material.007.material" />
+    </item>
+    <item type="material" >
+      <file name="K:\Models\JME Competitions\71013_CC_Low_Poly_Building_1_blend\Ogre\Material.008.material" />
+    </item>
+    <item type="material" >
+      <file name="K:\Models\JME Competitions\71013_CC_Low_Poly_Building_1_blend\Ogre\Material.003.material" />
+    </item>
+    <item type="material" >
+      <file name="K:\Models\JME Competitions\71013_CC_Low_Poly_Building_1_blend\Ogre\Material.004.material" />
+    </item>
+  </externals>
+  <environment >
+    <colourDiffuse g="0.6841073036193848" b="1.0" r="0.5432485342025757" />
+    <colourBackground g="0.6841073036193848" b="1.0" r="0.5432485342025757" />
+    <colourAmbient g="0.0" b="0.0" r="0.0" />
+  </environment>
+</scene>
