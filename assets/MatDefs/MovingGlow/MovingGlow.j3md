@@ -162,8 +162,8 @@ MaterialDef Phong Lighting {
 
         LightMode MultiPass
 
-        VertexShader GLSL100:   Common/MatDefs/Light/Lighting.vert
-        FragmentShader GLSL100: Shaders/MovingGlow/MovingGlow.frag
+        VertexShader GLSL110:   Common/MatDefs/Light/Lighting.vert
+        FragmentShader GLSL110: Shaders/MovingGlow/MovingGlow.frag
 
         WorldParameters {
             WorldViewProjectionMatrix
@@ -215,8 +215,8 @@ MaterialDef Phong Lighting {
 
     Technique PreShadow {
 
-        VertexShader GLSL100 :   Common/MatDefs/Shadow/PreShadow.vert
-        FragmentShader GLSL100 : Common/MatDefs/Shadow/PreShadow.frag
+        VertexShader GLSL110 :   Common/MatDefs/Shadow/PreShadow.vert
+        FragmentShader GLSL110 : Common/MatDefs/Shadow/PreShadow.frag
 
         WorldParameters {
             WorldViewProjectionMatrix
@@ -267,8 +267,8 @@ Technique PostShadow15{
     }
 
     Technique PostShadow{
-        VertexShader GLSL100:   Common/MatDefs/Shadow/PostShadow.vert
-        FragmentShader GLSL100: Common/MatDefs/Shadow/PostShadow.frag
+        VertexShader GLSL110:   Common/MatDefs/Shadow/PostShadow.vert
+        FragmentShader GLSL110: Common/MatDefs/Shadow/PostShadow.frag
 
         WorldParameters {
             WorldViewProjectionMatrix
@@ -296,8 +296,8 @@ Technique PostShadow15{
 
   Technique PreNormalPass {
 
-        VertexShader GLSL100 :   Common/MatDefs/SSAO/normal.vert
-        FragmentShader GLSL100 : Common/MatDefs/SSAO/normal.frag
+        VertexShader GLSL110 :   Common/MatDefs/SSAO/normal.vert
+        FragmentShader GLSL110 : Common/MatDefs/SSAO/normal.frag
 
         WorldParameters {
             WorldViewProjectionMatrix
@@ -317,8 +317,8 @@ Technique PostShadow15{
 
     Technique GBuf {
 
-        VertexShader GLSL100:   Common/MatDefs/Light/GBuf.vert
-        FragmentShader GLSL100: Common/MatDefs/Light/GBuf.frag
+        VertexShader GLSL110:   Common/MatDefs/Light/GBuf.vert
+        FragmentShader GLSL110: Common/MatDefs/Light/GBuf.frag
 
         WorldParameters {
             WorldViewProjectionMatrix
@@ -347,8 +347,8 @@ Technique PostShadow15{
 
     Technique Glow {
 
-        VertexShader GLSL100:   Common/MatDefs/Misc/Unshaded.vert
-        FragmentShader GLSL100: Shaders/MovingGlow/Glow.frag
+        VertexShader GLSL110:   Common/MatDefs/Misc/Unshaded.vert
+        FragmentShader GLSL110: Shaders/MovingGlow/Glow.frag
 
         WorldParameters {
             WorldViewProjectionMatrix
@@ -374,8 +374,8 @@ Technique PostShadow15{
 
 Technique Refract {
 
-VertexShader GLSL100:   Shaders/ShaderBlow/Filters/SimpleRefraction/Refract.vert
-FragmentShader GLSL100: Shaders/ShaderBlow/Filters/SimpleRefraction/Refract.frag
+VertexShader GLSL110:   Shaders/ShaderBlow/Filters/SimpleRefraction/Refract.vert
+FragmentShader GLSL110: Shaders/ShaderBlow/Filters/SimpleRefraction/Refract.frag
 
 WorldParameters {
 WorldViewProjectionMatrix

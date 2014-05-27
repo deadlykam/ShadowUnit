@@ -1,9 +1,9 @@
 attribute vec3 inPosition;
-attribute vec4 inTexCoord;
+attribute vec2 inTexCoord;
 
 uniform mat4 g_WorldViewProjectionMatrix;
 
-varying vec4 texCoord;
+varying vec2 texCoord;
 
 /*
 * vertex shader template

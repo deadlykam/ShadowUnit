@@ -13,8 +13,8 @@ MaterialDef Simple {
         Vector2 Blend1
     }
     Technique {
-        VertexShader GLSL100: Shaders/SeqDissolve/SeqDissolve.vert
-        FragmentShader GLSL100: Shaders/SeqDissolve/SeqDissolve.frag
+        VertexShader GLSL110: Shaders/SeqDissolve/SeqDissolve.vert
+        FragmentShader GLSL110: Shaders/SeqDissolve/SeqDissolve.frag
 
         WorldParameters {
             WorldViewProjectionMatrix

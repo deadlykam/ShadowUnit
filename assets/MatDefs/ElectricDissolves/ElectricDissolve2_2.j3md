@@ -28,8 +28,8 @@ MaterialDef Electricity2_2 {
 
         LightMode Disable
 
-        VertexShader GLSL100:   Shaders/ElectricDissolves/ElectricDissolve2.vert
-        FragmentShader GLSL100: Shaders/ElectricDissolves/ElectricDissolve2_2.frag
+        VertexShader GLSL110:   Shaders/ElectricDissolves/ElectricDissolve2.vert
+        FragmentShader GLSL110: Shaders/ElectricDissolves/ElectricDissolve2_2.frag
 
         WorldParameters {
             WorldViewProjectionMatrix
@@ -52,8 +52,8 @@ MaterialDef Electricity2_2 {
 
 Technique Refract {
 
-VertexShader GLSL100:   ShaderBlow/Filters/SimpleRefraction/Refract.vert
-FragmentShader GLSL100: ShaderBlow/Filters/SimpleRefraction/Refract.frag
+VertexShader GLSL110:   ShaderBlow/Filters/SimpleRefraction/Refract.vert
+FragmentShader GLSL110: ShaderBlow/Filters/SimpleRefraction/Refract.frag
 
 WorldParameters {
 WorldViewProjectionMatrix

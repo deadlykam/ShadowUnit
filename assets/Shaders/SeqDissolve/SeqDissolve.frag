@@ -34,7 +34,7 @@
 #endif
 //===End
 
-varying vec4 texCoord;
+varying vec2 texCoord;
 
 
 
@@ -43,26 +43,25 @@ varying vec4 texCoord;
 */
 void main() {
     vec4 color = vec4(1.0);
-
     //Sequencing Code
     #ifdef SEQUENCING
-        if(m_Sequencing.x == 1){
+        if(m_Sequencing.x == 1.0){
             #ifdef SEQ1
                 color *= texture2D(m_Seq1, texCoord);
             #endif
-        }else if(m_Sequencing.x == 2){
+        }else if(m_Sequencing.x == 2.0){
             #ifdef SEQ2
                 color *= texture2D(m_Seq2, texCoord);
             #endif        
-        }else if(m_Sequencing.x == 3){
+        }else if(m_Sequencing.x == 3.0){
             #ifdef SEQ3
                 color *= texture2D(m_Seq3, texCoord);
             #endif
-        }else if(m_Sequencing.x == 4){
+        }else if(m_Sequencing.x == 4.0){
             #ifdef SEQ4
                 color *= texture2D(m_Seq4, texCoord);
             #endif
-        }else if(m_Sequencing.x == 5){
+        }else if(m_Sequencing.x == 5.0){
             #ifdef SEQ5
                 color *= texture2D(m_Seq5, texCoord);
             #endif
@@ -72,10 +71,10 @@ void main() {
 
     //Dissolve Code
     #ifdef BLEND1
-        if(m_Blend1.y == 0){
+        if(m_Blend1.y == 0.0){
             //This Reduces the alpha of the colormap
             color = color * m_Blend1.x;
-        }else if(m_Blend1.y == 1){
+        }else if(m_Blend1.y == 1.0){
             //This uses the dissolve map to dissolve the texture
             #ifdef DISSOLVEMAP
                 if(texture2D(m_DissolveMap, texCoord).r < m_Blend1.x){
